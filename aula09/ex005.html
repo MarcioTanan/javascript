@@ -17,7 +17,7 @@
   <h1>Iniciando estudos DOM</h1>
   <p>Aqui vai o resultado</p>
   <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-  <div>Clique em mim</div>
+  <div class="msg">Clique em mim</div>
 
   <script>
     var corpo = document.body
@@ -25,6 +25,9 @@
      document.write("Está escrito assim: " + p1.innerText) 
      corpo.style.background = "black"
      p1.style.color = "blue"
+
+     var d = document.querySelector('.msg')
+     d.style.background = "blue"
 
      
 
