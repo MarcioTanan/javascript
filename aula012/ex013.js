@@ -24,5 +24,5 @@ switch (diaSem) {
     console.log("Sábado")
     break
   default:
-    console.log("[ERROR] Dia invalido")
+    console.log("[ERROR] Dia inválido!")
 }
