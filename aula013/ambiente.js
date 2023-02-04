@@ -1,8 +1,7 @@
-var c = 1
- do {
-  console.log(`Passo ${c}`)
-  c++
-} while (c <= 5)
+for (c= 1; c<=10; c++){
+    console.log(c);
+}
+
 
 
 
@@ -22,6 +21,14 @@ var c = 1
 
 
 /*console.log("Tudo bem")
+
+var c = 1
+ do {
+  console.log(`Passo ${c}`)
+  c++
+} while (c <= 5)
+
+console.log("Tudo bem")
 console.log("Tudo bem")
 console.log("Tudo bem")
 console.log("Tudo bem")
