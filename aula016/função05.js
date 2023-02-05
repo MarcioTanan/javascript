@@ -1,5 +1,5 @@
 function fatorial(n){
-  if (n== 1) {
+  if (n== 1) {\watch
     return 1
   }else {
     return n * fatorial (n-1)
